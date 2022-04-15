@@ -1,0 +1,115 @@
+body {
+
+    background-image: url("IMG5.jpg"); /* The image used */
+        background-color: #cccccc; /* Used if the image is unavailable */
+        height: 900px; /* You must set a specified height */
+        background-position: center; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: cover; /* Resize the background image to cover the entire container */
+    }
+    
+    .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .scenter,.row justify-content-center h1
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 6rem;
+
+  } 
+
+  .container-fluid h3
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    margin-top : 5rem;
+    font-size: 5rem;
+
+  }
+    .heading {
+        margin-bottom: 0rem;
+font-family:'Times New Roman', Times, serif;
+color: black;
+    margin-bottom: 40px;
+    font-size: 6rem;
+
+    }
+    
+    .header {
+    display: flex;
+    align-items: center;
+    }
+    
+    .timer, .errors, .accuracy,
+    .cpm, .wpm {
+    background-color: #ffffff;
+    height: 100px;
+    width: 200px;
+    margin: 12px;
+    padding: 16px;
+    border-radius: 30%;
+    box-shadow: black 5px 8px 5px;
+    }
+    
+    .cpm, .wpm {
+    display: bold;
+    }
+    
+    .header_text {
+    text-transform: uppercase;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 0.92rem;
+    font-weight: 750;
+    align-items:stretch;
+    }
+    
+    .curr_time, .curr_errors,
+    .curr_accuracy, .curr_cpm,
+    .curr_wpm {
+    font-size: 2.50rem;
+    }
+    
+    .quote {
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+    }
+    
+    .input_area {
+    background-color: #ffffff;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+    }
+    
+    .restart_btn {
+    display: none;
+    background-color: #706b6b;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+    }
+    
+    .incorrect_char {
+    color: red;
+    text-decoration: underline;
+    }
+    
+    .correct_char {
+    color: darkgreen;
+    }
+    
